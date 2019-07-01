@@ -33,6 +33,9 @@ check_host_SOURCES = check_host.c
 TESTS += check_remote_addr
 check_remote_addr_SOURCES = check_remote_addr.c
 
+TESTS += check_routes2
+check_routes2_SOURCES = check_routes2.c
+
 
 if ENABLE_JSON
 TESTS += check_json

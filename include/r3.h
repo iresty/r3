@@ -21,7 +21,7 @@
 #if !defined(bool) && !defined(__cplusplus)
 typedef unsigned char bool;
 #endif
-#ifndef false 
+#ifndef false
 #    define false 0
 #endif
 #ifndef true
@@ -202,7 +202,8 @@ int r3_pattern_to_opcode(const char * pattern, unsigned int len);
 
 enum { NODE_COMPARE_STR, NODE_COMPARE_PCRE, NODE_COMPARE_OPCODE };
 
-enum { OP_EXPECT_MORE_DIGITS = 1, OP_EXPECT_MORE_WORDS, OP_EXPECT_NOSLASH, OP_EXPECT_NODASH, OP_EXPECT_MORE_ALPHA };
+enum { OP_EXPECT_MORE_DIGITS = 1, OP_EXPECT_MORE_WORDS, OP_EXPECT_NOSLASH,
+       OP_EXPECT_NODASH, OP_EXPECT_MORE_ALPHA, OP_EXPECT_NOLINEBREAKS};
 
 
 
